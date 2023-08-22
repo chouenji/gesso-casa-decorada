@@ -41,6 +41,7 @@ export default function Introduction() {
             className="carousel-image"
             src="/images/gessos/gesso1.jpg"
             alt="gesso"
+            priority
           />
           <Image
             width={1000}

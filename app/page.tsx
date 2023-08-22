@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Introduction from './components/introduction/index';
 import Footer from './components/footer';
 import About from './components/about';

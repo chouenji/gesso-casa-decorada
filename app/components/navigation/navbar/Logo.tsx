@@ -41,6 +41,7 @@ const Logo = () => {
           width={width < 1024 ? '70' : '70'}
           height={width < 1024 ? '45' : '100'}
           className="relative rounded-full border-white border-4 hover:border-sky-500 transition-all duration-500"
+          priority
         />
       </Link>
       <div

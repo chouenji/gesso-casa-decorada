@@ -9,7 +9,7 @@ const Sidebar = ({
 }): JSX.Element => {
   return (
     <>
-      <div
+      <nav
         className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-50"
         style={{
           opacity: `${isOpen ? '1' : '0'}`,
@@ -53,7 +53,7 @@ const Sidebar = ({
             </Link>
           </li>
         </ul>
-      </div>
+      </nav>
     </>
   );
 };

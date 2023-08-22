@@ -8,7 +8,7 @@ import Button from '../../button';
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="w-full h-24 bg-black sticky top-0 z-50">
+      <nav className="w-full h-24 bg-black sticky top-0 z-50">
         <div className="container mx-auto px-4 h-full flex justify-between items-center">
           <div className="w-1/3 hidden md:block">
             <Logo />
@@ -61,7 +61,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             </span>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
