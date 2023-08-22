@@ -32,11 +32,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
           </button>
           <ul className="w-1/3 hidden md:flex md:w-full justify-start gap-x-6 text-white flex-grow xl:justify-center items-center">
             <li>
-              <Link
-                className="hover:text-sky-500"
-                href="#depoimentos"
-                onClick={toggle}
-              >
+              <Link className="hover:text-sky-500" href="#depoimentos">
                 <p>Depoimentos</p>
               </Link>
             </li>

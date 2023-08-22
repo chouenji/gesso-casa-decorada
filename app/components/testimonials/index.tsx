@@ -4,7 +4,10 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Testimonials() {
   return (
-    <div className="bg-black text-white flex flex-col lg:justify-center items-center mt-2 p-10 pb-24 text-center">
+    <section
+      id="depoimentos"
+      className="bg-black text-white flex flex-col lg:justify-center items-center mt-2 p-10 pb-24 text-center"
+    >
       <h1 className="text-4xl font-bold mt-2 mb-2">Depoimentos</h1>
       <br />
       <div className="flex flex-col xl:flex-row items-center mb-4">
@@ -114,6 +117,6 @@ export default function Testimonials() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
