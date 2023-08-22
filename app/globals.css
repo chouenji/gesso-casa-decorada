@@ -5,3 +5,9 @@
 body {
   scroll-behavior: smsooth;
 }
+
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}

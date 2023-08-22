@@ -23,7 +23,7 @@ export default function footer() {
           <FontAwesomeIcon icon={faInstagram} size="2x" />
         </Link>
       </div>
-      <div className="text-center w-full">
+      <div className="text-center w-full font-bold">
         <span className="text-sm">Desenvolvido por </span>
         <Link href="https://chouenji.netlify.app/pt">
           <span className="text-sm text-sky-500">chouenji</span>
