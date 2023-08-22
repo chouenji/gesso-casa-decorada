@@ -33,6 +33,11 @@ const Sidebar = ({
 
         <ul className="sidebar-nav text-center leading-relaxed text-4xl">
           <li className="p-4 hover:text-sky-500">
+            <Link href="#intro" onClick={toggle}>
+              <p>Home</p>
+            </Link>
+          </li>
+          <li className="p-4 hover:text-sky-500">
             <Link href="#depoimentos" onClick={toggle}>
               <p>Depoimentos</p>
             </Link>

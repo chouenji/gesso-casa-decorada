@@ -32,7 +32,7 @@ export default function Introduction() {
           interval={2000}
           transitionTime={500}
           useKeyboardArrows
-          className="w-[90dvw] lg:w-[50dvw] md:w-[60dvw] mx-auto border-sky-500 border-4"
+          className="w-[90dvw] lg:w-[50dvw] md:w-[60dvw] mx-auto border-sky-500 border-8 rounded-lg"
           showThumbs={false}
         >
           <Image

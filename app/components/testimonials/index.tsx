@@ -6,7 +6,7 @@ export default function Testimonials() {
   return (
     <section
       id="depoimentos"
-      className="bg-black text-white flex flex-col lg:justify-center items-center mt-2 p-10 pb-24 text-center border-t-4 border-sky-500"
+      className="bg-black text-white flex flex-col lg:justify-center items-center mt-2 pb-24 text-center border-t-4 border-sky-500"
     >
       <h1 className="text-4xl font-bold mt-2 mb-2">Depoimentos</h1>
       <br />

@@ -40,7 +40,7 @@ const Logo = () => {
           alt="Logo"
           width={width < 1024 ? '70' : '70'}
           height={width < 1024 ? '45' : '100'}
-          className="relative rounded-full border-white border-4 hover:border-gray-400 transition-all duration-500"
+          className="relative rounded-full border-white border-4 hover:border-sky-500 transition-all duration-500"
         />
       </Link>
       <div
