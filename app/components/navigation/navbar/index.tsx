@@ -42,11 +42,6 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-sky-500" href="#galeria">
-                <p>Galeria</p>
-              </Link>
-            </li>
-            <li>
               <Link className="hover:text-sky-500" href="#contatos">
                 <p>Contatos</p>
               </Link>

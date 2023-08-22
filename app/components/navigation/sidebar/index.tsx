@@ -31,23 +31,18 @@ const Sidebar = ({
           </svg>
         </button>
 
-        <ul className="sidebar-nav text-center leading-relaxed text-xl">
-          <li>
+        <ul className="sidebar-nav text-center leading-relaxed text-4xl">
+          <li className="p-4 hover:text-sky-500">
             <Link href="#depoimentos" onClick={toggle}>
               <p>Depoimentos</p>
             </Link>
           </li>
-          <li>
+          <li className="p-4 hover:text-sky-500">
             <Link href="#sobre" onClick={toggle}>
               <p>Sobre Nós</p>
             </Link>
           </li>
-          <li>
-            <Link href="#galeria" onClick={toggle}>
-              <p>Galeria</p>
-            </Link>
-          </li>
-          <li>
+          <li className="p-4 hover:text-sky-500">
             <Link href="#contatos" onClick={toggle}>
               <p>Contatos</p>
             </Link>

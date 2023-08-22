@@ -5,18 +5,18 @@ import React from 'react';
 
 export default function footer() {
   return (
-    <footer className="bg-black text-white w-full h-24 border-t">
+    <footer className="bg-white text-black w-full h-24 border-t-4 border-sky-500">
       <br />
       <div className="flex items-center justify-center gap-x-4 mb-2">
         <Link target="_blank" href="https://www.facebook.com/gessocasadecorada">
           <FontAwesomeIcon
-            className="text-sky-500"
+            className="text-sky-800"
             icon={faFacebook}
             size="2x"
           />
         </Link>
         <Link
-          className="text-pink-500"
+          className="text-pink-400"
           target="_blank"
           href="https://www.instagram.com/gessocasadecorada"
         >

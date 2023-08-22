@@ -11,7 +11,7 @@ export default function About() {
   return (
     <section
       id="sobre"
-      className="flex flex-col lg:justify-center items-center mt-2 pb-24"
+      className="flex flex-col lg:justify-center items-center pb-24 border-t-4 border-sky-500"
     >
       <h1 className="text-4xl font-bold mt-2 mb-2">Sobre nós</h1>
       <div className="flex justify-center items-center lg:flex-row flex-col p-10 w-full">

@@ -3,7 +3,6 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Button from '../button';
 
 export default function Introduction() {
   return (
@@ -33,20 +32,10 @@ export default function Introduction() {
           useKeyboardArrows
           className="w-[90dvw] lg:w-[50dvw] md:w-[60dvw] mx-auto"
         >
-          <>
-            <img width={500} src="/images/gessos/gesso1.png" alt="Gesso 1" />
-            <p className="legend">Alguma de nossas obras!</p>
-          </>
-          <>
-            <img src="/images/gessos/gesso1.png" alt="Gesso 1" />
-            <p className="legend">Alguma de nossas obras!</p>
-          </>
-          <>
-            <img src="/images/gessos/gesso1.png" alt="Gesso 1" />
-            <p className="legend">Alguma de nossas obras!</p>
-          </>
+          <img src="/images/gessos/gesso1.png" alt="gesso" />
+          <img src="/images/gessos/gesso2.png" alt="gesso" />
+          <img src="/images/gessos/gesso3.png" alt="gesso" />
         </Carousel>
-        <Button text="Ver mais na Galeria" bg="bg-black" linkType="galeria" />
       </section>
     </main>
   );
