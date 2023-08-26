@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 export default function Testimonials() {
@@ -12,7 +12,7 @@ export default function Testimonials() {
       <br />
       <div className="flex flex-col xl:flex-row items-center mb-4">
         <div className="flex flex-col items-center mb-4 xl:w-1/3 w-full">
-          <h2 className="text-2xl font-bold mt-2 mb-2">Marjorie G.</h2>
+          <h2 className="text-2xl font-bold mt-2 mb-2">Alessandra G.</h2>
           <div className="flex">
             <FontAwesomeIcon
               className="text-sky-500 p-2"
@@ -47,7 +47,7 @@ export default function Testimonials() {
         </div>
 
         <div className="flex flex-col items-center mb-4 xl:w-1/3 w-full">
-          <h2 className="text-2xl font-bold mt-2 mb-2">Simoni C.</h2>
+          <h2 className="text-2xl font-bold mt-2 mb-2">Clara C.</h2>
           <div className="flex">
             <FontAwesomeIcon
               className="text-sky-500 p-2"
@@ -83,7 +83,7 @@ export default function Testimonials() {
         </div>
 
         <div className="flex flex-col items-center mb-4 xl:w-1/3 w-full">
-          <h2 className="text-2xl font-bold mt-2 mb-2">Vera R.</h2>
+          <h2 className="text-2xl font-bold mt-2 mb-2">Roger D.</h2>
           <div className="flex">
             <FontAwesomeIcon
               className="text-sky-500 p-2"

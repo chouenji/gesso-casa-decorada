@@ -20,7 +20,6 @@ export default function Introduction() {
         Profissionais em gesso e decoração
       </h2>
       <br />
-
       <section>
         <Carousel
           ariaLabel="Gesso Displays"
@@ -28,7 +27,6 @@ export default function Introduction() {
           emulateTouch
           infiniteLoop
           showStatus
-          swipeable
           interval={2000}
           transitionTime={500}
           useKeyboardArrows
