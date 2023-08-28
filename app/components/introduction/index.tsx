@@ -9,7 +9,7 @@ export default function Introduction() {
   return (
     <main
       id="intro"
-      className="flex flex-col lg:justify-center items-center mt-2 pb-24 text-center"
+      className="flex flex-col overflow-hidden lg:justify-center items-center mt-2 pb-24 text-center"
     >
       <header>
         <h1 className="xl:text-4xl text-3xl font-bold">
@@ -30,8 +30,10 @@ export default function Introduction() {
           interval={2000}
           transitionTime={500}
           useKeyboardArrows
-          className="w-[90dvw] lg:w-[50dvw] md:w-[60dvw] mx-auto border-sky-500 border-8 rounded-lg"
+          className="w-[100dvw] lg:w-[50dvw] md:w-[60dvw] mx-auto border-sky-500 border-8 rounded-lg"
           showThumbs={false}
+          preventMovementUntilSwipeScrollTolerance={true}
+          swipeScrollTolerance={50}
         >
           <Image
             width={1000}
